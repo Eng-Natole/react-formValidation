@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f5f9;
+}
+
+.card {
+  width: 320px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 8px;
+}
+
+.card-header {
+  border-bottom: 2px solid #f6f6f6;
+  padding: 15px 18px;
+  background-color: #fff;
+}
+
+.card-body {
+  padding: 0rem 20px 16px 20px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #343434;
+  margin: 0;
+}
+
+.label {
+  font-size: 12px; /* Fixed font-style issue */
+  color: #404040;
+  margin: 0 0 6px 0;
+  margin-top: 1rem;
+}
+.input {
+  width: 100%; /* Makes input responsive */
+  max-width: 320px; /* Prevents it from becoming too large */
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding: 10px 15px;
+  background-color: #fff; /* Ensures background is visible */
+  border-radius: 8px;
+  border: 1.5px solid #ccc;
+  outline: none;
+  transition: border 0.3s ease-in-out;
+}
+
+/* Placeholder Styling */
+.input::placeholder {
+  color: #888;
+  opacity: 0.8;
+}
+
+/* Focus Effect */
+.input:focus {
+  border: 1.5px solid #6140ac;
+  box-shadow: 0 0 5px rgba(97, 64, 172, 0.5);
+}
+
+.btn {
+  width: 100%;
+  display: inline-block;
+  background-color: #8b5cf6;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  color: #382562;
+  background-color: #dccefc;
+}
+
+.error-message {
+  font-size: 12px;
+  font-weight: 500;
+  color: red;
+  margin-top: 6px;
+}
+
+.success-message {
+  font-size: 12px; /* Fixed font-style issue */
+  font-weight: 500;
+  color: green;
+  margin-top: 16px;
+}
